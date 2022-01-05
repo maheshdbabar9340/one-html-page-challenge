@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Resume</title>
+</head>
+<style>
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+body{
+	background: linear-gradient(to right, #9b9a9c, #403f41);
+}
+
+.resume{
+	width: 80%;
+	background: #74DBEF;
+	margin: 25px auto;
+	display: flex;
+}
+
+.left{
+	background: #264E86;
+	width: 280px;
+	padding: 0 20px;
+}
+
+.right{
+	width: calc(100% - 300px);
+}
+
+.left .img_holder{
+	text-align: center;
+	padding: 20px 0;
+}
+
+.left .img_holder img{
+	width: 200px;
+	border-radius: 30px;
+}
+
+
+
+.title{
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	padding-bottom: 10px;
+	color: #2c97a5;
+	position: relative;
+	text-align: right;
+	margin-bottom: 15px;
+}
+
+.title:before{
+	content: "";
+	position: absolute;
+	top: 35px;
+	right: 0;
+	width: 50px;
+	height: 3px;
+	background: #606169;
+}
+
+
+
+.left .text{
+	color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.contact .li_wrap{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.contact .li_wrap .text{
+    
+	width: calc(100% - 50px);
+	word-break: break-word;
+	color: #fff;
+}
+
+a:link {
+    color: white;
+  }
+  
+ 
+  a:visited {
+    color: yellow;
+  }
+  
+ 
+  a:hover {
+    color: #2c97a5;
+  }
+  
+
+  a:active {
+    color: coral ;
+  }
+
+
+
+.header{
+	background: #5E88FC;
+	padding: 15px 40px;
+	color: #fff;
+	height: 240px;
+}
+
+
+.header .name{
+	font-size: 52px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #175e80;
+}
+
+
+.header .role{
+    color: black;
+	font-weight: 600;
+	font-size: 20px;
+}
+
+
+#about{
+    margin-top: 20px;
+    font-size: 20px;
+	line-height: 30px;
+}
+
+
+
+
+.right_inner{
+	padding: 30px;
+	color: #292b2f;
+}
+
+
+.right_inner .education{
+	margin-top: 30px;
+}
+
+.right_inner .li_wrap{
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.right_inner .li_wrap .date {
+    width: 125px;
+    color: #9153c9;
+}
+
+.right_inner .li_wrap .info{
+	width: calc(100%  - 125px);
+	padding-left: 25px;
+	position: relative;
+}
+
+
+.right_inner .li_wrap .info_title{
+	text-transform: none;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #9153c9;
+}
+
+.right_inner .li_wrap .info_com{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 3px;
+}
+
+.right_inner .li_wrap .info_cont{
+	margin-top: 15px;
+}
+
+
+.right_inner .li_wrap .info:before{
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background: #9153c9;
+	border-radius: 50%;
+}
+
+.right_inner .li_wrap .info:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 4px;
+	width: 2px;
+	height: 90%;
+	background: #9153c9;
+}
+
+@media only screen and (max-width: 700px) {
+#about {
+    visibility: hidden;
+  }
+}
+
+
+</style>
+<body>
+	<div class="wrapper">
+
+		<div class="resume">
+			<div class="left">
+				<div class="contact_wrap pb">
+					<div class="title">
+						Contact
+					</div>
+					<div class="contact">
+						<ul>
+							<li>
+								<div class="li_wrap">
+									
+									<div class="text"><a href="tel:932658415">Call Me@9326585415</a></div>
+								</div>
+							</li>
+							<li>
+								<div class="li_wrap">
+									<div class="text"><a target="_blank" href="https://wa.link/ak32v9">Whatsapp</a></div>
+								</div>
+                            </li>
+
+                            <li>
+								<div class="li_wrap">
+									<div class="text"><a target="_blank" href="https://github.com/maheshdbabar9340">GitHub</a></div>
+								</div>
+                            </li>
+
+                            
+
+                            <li>
+								<div class="li_wrap">
+                                    <div class="text"><a href = "mailto: maheshdbabar9340@gmail.com">maheshdbabar9340@gmail.com</a></div>
+                                    
+								</div>
+							</li>
+						
+							<li>
+								<div class="li_wrap">
+									<div class="text">Near Tata Power House, Maghathane, Boriwali East</div>
+								</div>
+                            </li>
+                        
+						</ul>
+					</div>
+                </div>
+                
+
+				<div class="skills_wrap pb">
+
+					<div class="title">
+						Skills
+					</div>
+					<div class="contact">
+						<ul style="color:white">
+							<li>
+                                <div class="li_wrap">
+                                    <div class="text">Java</div>
+                                </div>		
+                            </li>
+                            
+                            <li>
+                                <div class="li_wrap">
+                                    <div class="text">HTML CSS</div>
+                                </div>		
+                            </li>
+                            <li>
+                                <div class="li_wrap">
+                                    <div class="text">Javascript</div>
+                                </div>		
+                            </li>
+                            
+                            <li>
+                                <div class="li_wrap">
+                                    <div class="text">Python | Machine Learning</div>
+                                </div>		
+                            </li>
+                            
+                            <li>
+                                <div class="li_wrap">
+                                    <div class="text">MYSQL</div>
+                                </div>		
+                            </li>
+                            
+                            <li>
+                                <div class="li_wrap">
+                                    <div class="text">Artificial Intelligence</div>
+                                </div>		
+							</li>
+							
+                        </ul>
+                        
+					</div>
+				</div>
+				<div class="hobbies_wrap pb">
+					<div class="title">
+						Hobbies
+					</div>
+					<div class="contact">
+						<ul>
+                            <li>
+                                <div class="li_wrap">
+                                    <div class="text">Travelling and Expedition</div>
+                                </div>		
+                            </li>
+                            
+                            <li>
+                                <div class="li_wrap">
+                                    <div class="text">Volleyball Player</div>
+                                </div>		
+                            </li>
+
+                            <li>
+                                <div class="li_wrap">
+                                    <div class="text">Tabla Player</div>
+                                </div>		
+                            </li>	
+						</ul>
+					</div>
+				</div>
+            </div>
+            
+
+
+            <!--Right part -->
+
+			<div class="right">
+				<div class="header">
+					<div class="name_role">
+						<div class="name">
+							Mahesh Babar
+                        </div>
+                        <br>
+						<div class="role">
+							Front End Developer | HackerRank Certified in Python   
+						</div>
+					</div>
+					<p id="about">
+						To associate myself with an organisation where there is an opportunity to share, contribute and upgrade my knowledge for development of organisation and myself.
+					</p>
+
+                </div>
+                
+
+
+
+				<div class="right_inner">
+                    <div class="education">
+						<div class="title">
+							Education
+						</div>
+						<div class="education_wrap">
+							<ul>
+								<li>
+									<div class="li_wrap">
+										<div class="date">
+                                              2020- 2021
+                                              <br> 
+                                              Pursuing 3<sup>rd</sup> Year
+										</div>
+										<div class="info">
+											<p class="info_title">
+												Information Technology
+											</p>
+											<p class="info_com">
+												Fr. Conceicao Rodrigues College of Engineering, Bandra, Mumbai
+											</p>
+											<p class="info_cont">
+												9.07 CGPA upto sem IV
+											</p>
+										</div>
+									</div>
+                                </li>
+                                
+								<li>
+									<div class="li_wrap">
+										<div class="date">
+											2016 - 2018
+										</div>
+										<div class="info">
+											<p class="info_title">
+												HSC
+											</p>
+											<p class="info_com">
+												New Engish College Nandgoan-Manu, Karad.
+											</p>
+											<p class="info_cont">
+												81.69%
+											</p>
+										</div>
+									</div>
+                                </li>
+                                
+                                <li>
+									<div class="li_wrap">
+										<div class="date">
+											2015 - 2016
+										</div>
+										<div class="info">
+											<p class="info_title">
+												SSC
+											</p>
+											<p class="info_com">
+												Nazara Vidyamandir Prashala, Nazara.
+											</p>
+											<p class="info_cont">
+												93.40%
+											</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+                    
+                    
+                    <div class="exp">
+						<div class="title">
+							Projects
+						</div>
+						<div class="exp_wrap">
+							<ul>
+                                <li>
+									<div class="li_wrap">
+										<div class="date">
+											October  2020 - Present 
+										</div>
+										<div class="info">
+											<p class="info_title">
+												Automatic Pet Feeder
+											</p>
+											<p class="info_com">
+												IOT Project
+											</p>
+											<p class="info_cont">
+												Automatic Pet Feeder that feeds pet automatically as per schedule.
+											</p>
+										</div>
+									</div>
+                                </li>
+                                
+							</ul>
+
+						</div>
+					</div>	
+
+					<div class="education">
+						<div class="title">
+							Certificates 
+						</div>
+						<div class="education_wrap">
+							<ul>
+								<li>
+									<div class="li_wrap">
+										<div class="date">
+											October 2020 - November 2020
+										</div>
+										<div class="info">
+											<p class="info_title">
+												Microsoft AI Classrom Series
+											</p>
+											<p class="info_cont">
+												Participated in AI Classroom Series with securing more than 80% in Assessment Test.
+											</p>
+										</div>
+									</div>
+                                </li>
+                                
+								<li>
+									<div class="li_wrap">
+										<div class="date">
+											2019 - Present
+										</div>
+										<div class="info">
+											<p class="info_title">
+												HackerRank Certificates in Python 
+											</p>
+											<p class="info_cont">
+												Clearing all Basic, Intermediate and Advanced Levels in Problems.
+											</p>
+										</div>
+									</div>
+                                </li>
+							</ul>
+						</div>
+                    </div>
+                
+				</div>
+			</div>        
+        </div>
+
+    </div>
+</body>
+</html>
