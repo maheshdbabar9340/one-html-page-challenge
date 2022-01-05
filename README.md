@@ -12,6 +12,7 @@ The goal is to create anything you want within 1 single html file. Practice your
  - You are allowed to use libraries, however the library must be hard coded into a script tag and still must fit under the 1MB file size. (I suggest using a cdn and replacing with hardcoding the minified library at the end, or use [JSCompress](https://jscompress.com/)).
  
 ## How to Submit
+
  1. Fork the repository.
  2. Add your html file to the `/entries` directory.
  3. Edit the `entries.js` file in the root, with your information for the entry.
